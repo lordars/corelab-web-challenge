@@ -1,5 +1,5 @@
 export interface IFilterModal {   
-    name: string;   
+    brand : string;   
     year: number;
     color: string;
     priceMin: number;

@@ -16,8 +16,8 @@ interface IMFilter {
     }
     return (
     <div id={props.id} onClick={heandleOutsideClick}>
-        <label htmlFor="name">Marca</label>
-       <select name="name" value={"ford"}   id="marcaFilter">
+        <label htmlFor="brand">Marca</label>
+       <select name="brand" value={"ford"}   id="marcaFilter">
           <option value="ford" >Ford</option>
           <option value="chevrolet"> chevrolet</option>
           <option value="fiat">fiat</option>
